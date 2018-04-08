@@ -16,7 +16,7 @@ public class FacebookLogin {
  
 		
 		driver.get("https://www.facebook.com/");
-		Thread.sleep(9000);
+		//Thread.sleep(9000);
 	WebElement sYear=driver.findElementByXPath("//*[@id='month']");
 		
 		Select s= new Select(sYear);
